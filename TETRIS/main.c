@@ -27,7 +27,7 @@ int main(int argc, char *argv[]){
 	int ** bg_matrix = NULL, rot = 0, randPiece1, randPiece2,
 	    inc = 0, counter = 0, alert = 0,
 		close = 0, rotCheck = 0, vel = VEL,
-		score = 0, color = 0, level = EASY, close_menu, option = 6, lv = EASY;
+		score = 0, color = 0, level = EASY, close_menu = 0, option = 6, lv = EASY;
 
 	int posx = POS_INIT_X, posy = POS_INIT_Y;
 	float incx = 0;
